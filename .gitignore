@@ -1,0 +1,40 @@
+# ----------------------------
+# Dépendances
+# ----------------------------
+node_modules/
+
+# ----------------------------
+# Playwright
+# ----------------------------
+playwright-report/
+test-results/
+trace.zip
+
+# ----------------------------
+# playwright-bdd (génération)
+# ----------------------------
+.feature-gen/
+.playwright-bdd/
+
+# ----------------------------
+# Logs
+# ----------------------------
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ----------------------------
+# TypeScript
+# ----------------------------
+*.tsbuildinfo
+
+# ----------------------------
+# OS / IDE
+# ----------------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Environn
